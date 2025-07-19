@@ -43,3 +43,5 @@
 ```
 ## 快速开始
 
+### License
+Open-source under [MIT License](LICENSE)
