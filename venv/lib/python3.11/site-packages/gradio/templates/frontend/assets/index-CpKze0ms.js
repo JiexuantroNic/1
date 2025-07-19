@@ -1,0 +1,2 @@
+import{E as t}from"./Embed-BKlR06E0.js";import{b as n,d as _,c as l,g as c,i,l as r,e as m,m as p,p as d,a as g,s as f,t as u}from"./index-BPZXbhyd.js";import"./svelte/svelte.js";export{t as Embed,n as all_common_keys,_ as changeLocale,l as create_components,c as get_initial_locale,i as is_translation_metadata,r as language_choices,m as load_translations,p as mount_css,d as prefix_css,g as process_langs,f as setupi18n,u as translate_if_needed};
+//# sourceMappingURL=index-CpKze0ms.js.map

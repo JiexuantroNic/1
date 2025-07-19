@@ -1,0 +1,9 @@
+{
+    "my_profile": {
+        "name": "你的名字",
+        "age": 25,
+        "profession": "开发者",
+        "interests": ["技术", "音乐"],
+        "memory": []
+    }
+}
