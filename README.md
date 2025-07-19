@@ -17,11 +17,17 @@
 
 ## 文件结构
 ├── data/ # 数据存储
+
 │ ├── conversations/ # 对话历史（JSON）
+
 │ └── training_data/ # 训练数据
+
 ├── server.py # 主程序入口
+
 ├── profile.json # 用户配置
+
 └── requirements.txt # 依赖库
+
 
 ## 配置说明
 `profile.json` 示例：
