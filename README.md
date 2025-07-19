@@ -1,38 +1,12 @@
-DeepSeek Chat Assistant
+# DeepSeek Chat Assistant
 
-项目简介
+## 项目简介
+一个基于 DeepSeek API 的智能聊天助手，支持对话历史记录和个性化用户配置。
 
-一个基于DeepSeek API的智能聊天助手，支持对话历史记录和个性化用户配置。
+## 功能特性
+- 📝 **多轮对话**：支持上下文记忆的连续对话
+- 💾 **自动保存**：对话历史本地持久化存储
+- ⚙️ **个性化配置**：可定制的用户资料设置
+- 🚀 **流式响应**：实时打字机效果的消息展示
 
-功能特性
-
-• 📝 支持多轮对话上下文
-
-• 💾 自动保存对话历史
-
-• ⚙️ 可配置的用户个性化设置
-
-• 🚀 流式响应体验
-
-快速开始
-
-
-
-贡献指南
-
-1. Fork 本仓库
-2. 创建新分支 (git checkout -b feature/your-feature)
-3. 提交更改 (git commit -am 'Add some feature')
-4. 推送分支 (git push origin feature/your-feature)
-5. 创建Pull Request
-
-许可证
-
-MIT License
-
-
-相关链接
-
-• https://platform.deepseek.com/docs
-
-• https://www.gradio.app/docs/
+## 快速开始
