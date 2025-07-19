@@ -1,12 +1,36 @@
 # DeepSeek Chat Assistant
 
 ## 项目简介
-一个基于 DeepSeek API 的智能聊天助手，支持对话历史记录和个性化用户配置。
+基于 DeepSeek API 开发的智能对话助手，支持上下文记忆和个性化配置。
 
-## 功能特性
-- 📝 **多轮对话**：支持上下文记忆的连续对话
-- 💾 **自动保存**：对话历史本地持久化存储
-- ⚙️ **个性化配置**：可定制的用户资料设置
-- 🚀 **流式响应**：实时打字机效果的消息展示
+## 核心功能
+- 🗣️ 持续对话上下文记忆
+- 📂 对话历史自动本地存储
+- ⚙️ 可定制的用户配置文件
+- 🌊 流式响应交互体验
 
-## 快速开始
+## 技术栈
+- **后端框架**: Gradio
+- **API**: DeepSeek
+- **数据存储**: JSON 本地存储
+- **Token 计算**: tiktoken
+
+## 文件结构
+├── data/ # 数据存储
+│ ├── conversations/ # 对话历史（JSON）
+│ └── training_data/ # 训练数据
+├── server.py # 主程序入口
+├── profile.json # 用户配置
+└── requirements.txt # 依赖库
+
+## 配置说明
+`profile.json` 示例：
+```json
+{
+  "my_profile": {
+    "name": "用户",
+    "age": 25,
+    "profession": "职业",
+    "interests": ["技术", "阅读"],
+    "memory": []
+  }
