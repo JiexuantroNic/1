@@ -42,6 +42,6 @@
   }
 ```
 ## 快速开始
-
+https://blog.jiexuan.xyz/archives/deepseek-chat-assistant
 ### License
 Open-source under [MIT License](LICENSE)
